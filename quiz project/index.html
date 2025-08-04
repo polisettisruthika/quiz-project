@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="quiz-container">
+    <h1>Web Development Quiz</h1>
+
+    <div class="question">
+      <p>1. What does HTML stand for?</p>
+      <label><input type="radio" name="q1" value="a"> Hyper Text Markup Language</label><br>
+      <label><input type="radio" name="q1" value="b"> High Text Machine Language</label><br>
+      <label><input type="radio" name="q1" value="c"> Hyperlink Text Marking Language</label><br>
+    </div>
+
+    <div class="question">
+      <p>2. What property is used in CSS to change text color?</p>
+      <label><input type="radio" name="q2" value="a"> font-color</label><br>
+      <label><input type="radio" name="q2" value="b"> color</label><br>
+      <label><input type="radio" name="q2" value="c"> text-style</label><br>
+    </div>
+
+    <div class="question">
+      <p>3. Which of these is the correct way to write a JavaScript function?</p>
+      <label><input type="radio" name="q3" value="a"> function myFunc[] {}</label><br>
+      <label><input type="radio" name="q3" value="b"> function: myFunc() {}</label><br>
+      <label><input type="radio" name="q3" value="c"> function myFunc() {}</label><br>
+    </div>
+
+    <div class="question">
+      <p>4. What does CSS stand for?</p>
+      <label><input type="radio" name="q4" value="a"> Colorful Style Sheets</label><br>
+      <label><input type="radio" name="q4" value="b"> Cascading Style Sheets</label><br>
+      <label><input type="radio" name="q4" value="c"> Computer Style Sheets</label><br>
+    </div>
+
+    <div class="question">
+      <p>5. Which HTML tag is used to define an internal style sheet?</p>
+      <label><input type="radio" name="q5" value="a">&lt;style&gt;</label><br>
+      <label><input type="radio" name="q5" value="b">&lt;css&gt;</label><br>
+      <label><input type="radio" name="q5" value="c">&lt;script&gt;</label><br>
+    </div>
+
+    <div class="question">
+      <p>6. How do you write a comment in JavaScript?</p>
+      <label><input type="radio" name="q6" value="a"> &lt;!-- comment --&gt;</label><br>
+      <label><input type="radio" name="q6" value="b"> // comment</label><br>
+      <label><input type="radio" name="q6" value="c"> /* comment */</label><br>
+    </div>
+
+    <div class="question">
+      <p>7. Which attribute is used to provide a unique name to an HTML element?</p>
+      <label><input type="radio" name="q7" value="a"> class</label><br>
+      <label><input type="radio" name="q7" value="b"> name</label><br>
+      <label><input type="radio" name="q7" value="c"> id</label><br>
+    </div>
+
+    <div class="question">
+      <p>8. Which of these is not a valid CSS unit?</p>
+      <label><input type="radio" name="q8" value="a"> px</label><br>
+      <label><input type="radio" name="q8" value="b"> em</label><br>
+      <label><input type="radio" name="q8" value="c"> cp</label><br>
+    </div>
+
+    <div class="question">
+      <p>9. How do you select an element with id="demo" in CSS?</p>
+      <label><input type="radio" name="q9" value="a"> .demo</label><br>
+      <label><input type="radio" name="q9" value="b"> #demo</label><br>
+      <label><input type="radio" name="q9" value="c"> demo</label><br>
+    </div>
+
+    <div class="question">
+      <p>10. Which JavaScript keyword is used to declare a variable?</p>
+      <label><input type="radio" name="q10" value="a"> let</label><br>
+      <label><input type="radio" name="q10" value="b"> int</label><br>
+      <label><input type="radio" name="q10" value="c"> string</label><br>
+    </div>
+
+    <button onclick="checkAnswers()">Submit Quiz</button>
+    <p id="result"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
